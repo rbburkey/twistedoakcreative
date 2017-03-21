@@ -142,13 +142,22 @@ a:focus {
 .intro .intro-body {
   display: table-cell;
   vertical-align: middle;
+  padding-top: 35px;
+  padding-right: 25px;
+  padding-bottom: 0px;
 }
 .intro .intro-body .brand-heading {
   font-size: 200px;
   margin: 0px;
 }
+
+.intro .intro-body .brand-heading {
+color:rgba(255,255,255,0.6);
+}
+
 .intro .intro-body .intro-text {
   font-size: 18px;
+  color:rgba(255,255,255,0.6);
 }
 
 #intro-container {
@@ -453,4 +462,8 @@ body {
   #portfolio .portfolio-item {
     margin: 0 0 30px;
   }
+}
+
+.why_we_are {
+  color: #42DCA3;
 }
